@@ -64,8 +64,8 @@ class Owner
       pet[1].each do |animal|
           animal.mood = "nervous"
         end
-    
     end
+    @pets = {fishes: [], cats: [], dogs: []}
   end
   
 end
